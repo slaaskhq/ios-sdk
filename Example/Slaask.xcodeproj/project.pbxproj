@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		4C8ED98545CF94A56BCC0BC1 /* Pods-Slaask_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slaask_Tests.release.xcconfig"; path = "Target Support Files/Pods-Slaask_Tests/Pods-Slaask_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5CCD8B2909003B318E967065 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5CCD8B2909003B318E967065 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Slaask_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slaask_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,11 +41,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7DC46CF69E82A037BD0F65D2 /* Pods-Slaask_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slaask_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Slaask_Tests/Pods-Slaask_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		92695AF621D41F8EDBA7D7CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		92695AF621D41F8EDBA7D7CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		97A3F0914FC683269D6903C2 /* Pods_Slaask_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slaask_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A737AD4A46A496BA261274 /* Pods-Slaask_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slaask_Example.release.xcconfig"; path = "Target Support Files/Pods-Slaask_Example/Pods-Slaask_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C4A45332F30933A74A890DB4 /* Pods-Slaask_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slaask_Example.debug.xcconfig"; path = "Target Support Files/Pods-Slaask_Example/Pods-Slaask_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E355F7649892D28A902E7DA2 /* Slaask.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Slaask.podspec; path = ../Slaask.podspec; sourceTree = "<group>"; };
+		E355F7649892D28A902E7DA2 /* Slaask.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Slaask.podspec; path = ../Slaask.podspec; sourceTree = "<group>"; };
 		F2E2BE5A6B68E1E16A1681B9 /* Pods_Slaask_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slaask_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				7DC46CF69E82A037BD0F65D2 /* Pods-Slaask_Tests.debug.xcconfig */,
 				4C8ED98545CF94A56BCC0BC1 /* Pods-Slaask_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4XW9GB5567;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -478,6 +478,7 @@
 			baseConfigurationReference = C4A45332F30933A74A890DB4 /* Pods-Slaask_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4XW9GB5567;
 				INFOPLIST_FILE = Slaask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +494,7 @@
 			baseConfigurationReference = C3A737AD4A46A496BA261274 /* Pods-Slaask_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4XW9GB5567;
 				INFOPLIST_FILE = Slaask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

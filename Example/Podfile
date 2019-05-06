@@ -1,6 +1,8 @@
 use_frameworks!
 
 target 'Slaask_Example' do
+  platform :ios, '9.0'
+  
   pod 'Slaask', :path => '../'
 
   target 'Slaask_Tests' do

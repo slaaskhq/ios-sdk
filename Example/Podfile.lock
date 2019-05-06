@@ -1,0 +1,16 @@
+PODS:
+  - Slaask (0.1.1)
+
+DEPENDENCIES:
+  - Slaask (from `../`)
+
+EXTERNAL SOURCES:
+  Slaask:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Slaask: 1e3e206c1c539132fff445fb845e86bd2c99ab58
+
+PODFILE CHECKSUM: a456c91f5bbb843c3032013e7b9058b53bdf6dfc
+
+COCOAPODS: 1.7.0.rc.1

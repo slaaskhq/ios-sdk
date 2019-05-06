@@ -1,0 +1,6 @@
+framework module Slaask {
+  umbrella header "Slaask-umbrella.h"
+
+  export *
+  module * { export * }
+}

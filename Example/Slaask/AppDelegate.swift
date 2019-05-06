@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Slaask
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        Slaask.sharedInstance.prepare(apiKey: "spk-8359633d-7931-4e62-ae5f-d413d951ad29")
         // Override point for customization after application launch.
         return true
     }

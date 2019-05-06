@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Slaask_Example' do
+  pod 'Slaask', :path => '../'
+
+  target 'Slaask_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

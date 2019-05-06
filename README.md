@@ -1,6 +1,6 @@
 # Slaask
 
-[![CI Status](https://img.shields.io/travis/Rémi Delhaye/Slaask.svg?style=flat)](https://travis-ci.org/Rémi Delhaye/Slaask)
+[![CI Status](https://img.shields.io/travis/slaaskhq/ios-sdk.svg?style=flat)](https://travis-ci.org/slaaskhq/ios-sdk)
 [![Version](https://img.shields.io/cocoapods/v/Slaask.svg?style=flat)](https://cocoapods.org/pods/Slaask)
 [![License](https://img.shields.io/cocoapods/l/Slaask.svg?style=flat)](https://cocoapods.org/pods/Slaask)
 [![Platform](https://img.shields.io/cocoapods/p/Slaask.svg?style=flat)](https://cocoapods.org/pods/Slaask)

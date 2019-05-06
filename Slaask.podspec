@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Slaask'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'The customer service app for all Slack users.'
   s.description      = <<-DESC
 Slaask supercharges your Slack to function as a real-time customer service app shared among your team.
